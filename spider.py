@@ -15,6 +15,8 @@ browser = webdriver.PhantomJS(service_args=SERVICE_ARGS)
 wait = WebDriverWait(browser,10)
 browser.set_window_size(1400,900)
 
+
+##
 def search():
     try:
         browser.get('https://www.taobao.com/')
